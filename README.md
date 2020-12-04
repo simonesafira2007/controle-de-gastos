@@ -73,27 +73,27 @@
 O principal objetivo é controlar as entradas e saídas de recursos financeiros do ponto de vista de uma boa e saudável educação financeira.
 Na API será possível criar receitas e despesas, bem como exibi-lás, através de alguns endpoints. A manipulação dos dados será realizada através da implementação dos métodos PUT  e DELETE.
 Também será implementado um código para mostrar a situação da pessoa ou da família em relação ao controle do orçamento.</p>
-
+    
 
 <br>
 
 ## Estrutura do projeto :
 
 <br>
-
+ 
 ```
 ├── src
 │   ├── controllers
-|      ├── despesasController.js
-|       ├── receitasController.js
-|       ├── transacoesController.js
+|   |  ├── despesasController.js
+|   |  ├── receitasController.js
+|   |  ├── transacoesController.js
 │   ├── models
-|      ├── despesas.js
-|      ├── receitas.js
+|   |  ├── despesas.js
+|   |  ├── receitas.js
 │   ├── routes 
-│       ├── despessRoute.js
-│       ├── receitasRoute.js
-|       ├── transacoesRoute.js
+│   |  ├── despessRoute.js
+│   |  ├── receitasRoute.js
+|   |  ├── transacoesRoute.js
 |   ├── app.js
 ├── package.json
 ├── server.js
