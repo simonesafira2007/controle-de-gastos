@@ -17,6 +17,8 @@ db.once("open", function () {
   console.log("conexão feita com sucesso.");
 });
 
+
+const index = require("./routes/index")  
 const despesas = require("./routes/despesasRoute");
 const receitas = require("./routes/receitasRoute");
 const transacoes = require("./routes/transacoesRoute");
@@ -32,6 +34,7 @@ app.use(function (req, res, next) {
   next();  
 });
 
+app.use("/", index); 
 app.use("/despesas", despesas);
 app.use("/receitas", receitas);
 app.use("/transacoes", transacoes);

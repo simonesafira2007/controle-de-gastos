@@ -38,10 +38,11 @@ const postReceita = (req, res) => {
 
 const deleteReceita = (req, res) => {
   const id = req.params.id;
+ 
 
-  receitas.find({ id }, function (err, receita) {
+  receitas.find({ user_id :id }, function (err, receita) {
     if (receita.length > 0) {
-      receitas.deleteMany({ id }, function (err) {
+      receitas.deleteMany({ user_id :id }, function (err) {
         if (err) {
           res.status(500).send({
             message: err.message,
