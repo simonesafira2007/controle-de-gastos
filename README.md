@@ -91,7 +91,8 @@ Também será implementado um código para mostrar a situação da pessoa ou da 
 |   |  ├── despesas.js
 |   |  ├── receitas.js
 │   ├── routes 
-│   |  ├── despessRoute.js
+│   |  ├── despesasRoute.js
+|   |  ├── index.js
 │   |  ├── receitasRoute.js
 |   |  ├── transacoesRoute.js
 |   ├── app.js
