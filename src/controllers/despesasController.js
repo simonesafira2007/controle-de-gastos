@@ -80,7 +80,7 @@ const deleteDespesaFaturado = (req, res) => {
 const putDespesa = (req, res) => {
   const id = req.params.id;
 
-  despesas.update({ id }, { $set: req.body }, function (err) {
+  despesas.update({ user_id : id }, { $set: req.body }, function (err) {
     if (err) {
       res.status(500).send({ message: err.message });
     }

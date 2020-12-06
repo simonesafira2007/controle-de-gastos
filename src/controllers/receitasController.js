@@ -82,7 +82,7 @@ const deleteReceitaFaturado = (req, res) => {
 const putReceita = (req, res) => {
   const id = req.params.id;
 
-  receitas.update({ id }, { $set: req.body }, function (err) {
+  receitas.update({ user_id : id }, { $set: req.body }, function (err) { 
     if (err) {
       res.status(500).send({ message: err.message });
     }
