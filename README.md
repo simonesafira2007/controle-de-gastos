@@ -73,6 +73,7 @@
 O principal objetivo é controlar as entradas e saídas de recursos financeiros do ponto de vista de uma boa e saudável educação financeira.
 Na API será possível criar receitas e despesas, bem como exibi-lás, através de alguns endpoints. A manipulação dos dados será realizada através da implementação dos métodos PUT  e DELETE.
 Também será implementado um código para mostrar a situação da pessoa ou da família em relação ao controle do orçamento.</p>
+<p>O model de despesas e receitas segue o formato: { user_id, nome, descricao, valor, faturado, dataInclusao, tipo , origem }.</p>
     
 
 <br>
@@ -108,6 +109,7 @@ Também será implementado um código para mostrar a situação da pessoa ou da 
 - Git e GitHub ;
 - Node.js ;
 - MongoDB ;
+- Mongo Atlas;
 - Javascript ;
 - Heroku .
 
