@@ -38,11 +38,10 @@ const postReceita = (req, res) => {
 
 const deleteReceita = (req, res) => {
   const id = req.params.id;
- 
 
-  receitas.find({ user_id :id }, function (err, receita) {
+  receitas.find({ user_id: id }, function (err, receita) {
     if (receita.length > 0) {
-      receitas.deleteMany({ user_id :id }, function (err) {
+      receitas.deleteMany({ user_id: id }, function (err) {
         if (err) {
           res.status(500).send({
             message: err.message,
@@ -82,7 +81,7 @@ const deleteReceitaFaturado = (req, res) => {
 const putReceita = (req, res) => {
   const id = req.params.id;
 
-  receitas.update({ user_id : id }, { $set: req.body }, function (err) { 
+  receitas.update({ user_id: id }, { $set: req.body }, function (err) {
     if (err) {
       res.status(500).send({ message: err.message });
     }

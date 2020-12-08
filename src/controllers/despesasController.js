@@ -38,9 +38,9 @@ const postDespesa = (req, res) => {
 const deleteDespesa = (req, res) => {
   const id = req.params.id;
 
-  despesas.find({ user_id : id }, function (err, despesa) {
+  despesas.find({ user_id: id }, function (err, despesa) {
     if (despesa.length > 0) {
-      despesas.deleteMany({ user_id : id }, function (err) {
+      despesas.deleteMany({ user_id: id }, function (err) {
         if (err) {
           return res.status(500).send({
             message: err.message,
@@ -80,7 +80,7 @@ const deleteDespesaFaturado = (req, res) => {
 const putDespesa = (req, res) => {
   const id = req.params.id;
 
-  despesas.update({ user_id : id }, { $set: req.body }, function (err) {
+  despesas.update({ user_id: id }, { $set: req.body }, function (err) {
     if (err) {
       res.status(500).send({ message: err.message });
     }
