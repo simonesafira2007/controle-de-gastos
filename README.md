@@ -111,6 +111,7 @@ Também será implementado um código para mostrar a situação da pessoa ou da 
 - MongoDB ;
 - Mongo Atlas;
 - Javascript ;
+- Postman;
 - Heroku .
 
 <br>
