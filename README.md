@@ -66,8 +66,8 @@
 <br>
 
 [ElaFazHistória](https://aliancaempreendedora.org.br/tamojunto/cursos/educacao-financeira-para-mulheres/)
-<p> Programa de longo prazo lançado pelo Facebook em 2016, cujo compromisso é apoiar o fortalecimento financeiro de mulheres empreendedoras na Economia Digital.  O curso online e gratuito que tem por objetivo capacitar mulheres para o desenvolvimento de habilidades de gestão financeira em seus negócios.  </p>
-
+<p> Programa de longo prazo lançado pelo Facebook em 2016, cujo compromisso é apoiar o fortalecimento financeiro de mulheres empreendedoras na Economia Digital.  O curso online e gratuito tem por objetivo capacitar mulheres para o desenvolvimento de habilidades de gestão financeira em seus negócios.  </p>
+ 
 <br>
 
 ## Descrição da API
