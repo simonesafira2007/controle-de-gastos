@@ -1,7 +1,8 @@
-### api_controle_de_gastos
+### controle_de_gastos
 <br>
 
-## API Node.js Controle de Gastos
+# API Node.js Controle de Gastos
+
 <br>
 
 ![Imagem representativa de controle de gastos](./imagens_api/img1.jpg)
