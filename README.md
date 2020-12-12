@@ -163,7 +163,7 @@ DELETE  | Exclui registros do arquivo despesas (faturado = false)   | localhost:
 <br>
 
 
-- Implementar código para autenticação de rota;
+- Implementar código para autenticação das rotas;
 - Implementação de código HTML para criação de interface capaz de possibilitar a interação do usuário com a aplicação.   
 
 
